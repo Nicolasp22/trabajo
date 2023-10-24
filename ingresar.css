@@ -1,0 +1,139 @@
+:root
+{
+    --violet: rgb(66, 19, 107);
+    --verde: rgb(66, 179, 66);
+    --verde_oscuro: rgb(2, 59, 2);
+    --borde: rgb(35, 4, 41);
+}
+html
+{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.404), rgba(231, 220, 220, 0.329)), url(/fotos/fondo.jpg);
+    background-position:center;
+}
+body
+{
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    font-family: Montserrat, sans-serif;
+
+}
+.formulario
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    height: 300px;
+}
+.compañia
+{
+    text-align: left;
+    width: 95%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: black;
+    
+}
+.titulo
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    font-size: 35px;
+    font-family: Montserrat, sans-serif;
+
+}
+.mail
+{
+    
+    margin-top: 20px;
+    width: 500px;
+    height: 43px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.psw
+{
+    
+    width: 500px;
+    height: 43px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.recupero
+{
+    font-size: 22px;
+    list-style: none;
+    color: rgb(17, 17, 17);
+    text-decoration-line: none;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--verde_oscuro);
+}
+.boton
+{
+    
+    width: 160px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: var(--verde);
+    border-style:none;
+    color: white;
+    font-weight: 900;
+    font-size: 15px;
+    font-family: Montserrat, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.5s;
+    animation-duration: 2s;
+
+}
+
+.boton input:hover
+{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.leyenda
+{
+    font-size: 25px;
+    font-weight: 550;
+    margin-top: 3%;
+
+}
+.crear
+{
+    font-size: 25px;
+    color: var(--verde_oscuro);
+    text-decoration-line: none;
+    font-weight: 800;
+}
+.imagen
+{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    opacity: 0.8;
+    margin-left: 40%;
+    bottom: 5%;
+    transition: transform 0.5s;
+    animation-duration: 1s;
+}
+.imagen:hover
+{
+    transform: rotate(30deg);
+    cursor: pointer;
+}
