@@ -16,7 +16,7 @@ body
     background-size: cover;
     background-position: center;
     font-family: Montserrat, sans-serif;
-
+    
 }
 .formulario
 {
@@ -137,3 +137,73 @@ body
     transform: rotate(30deg);
     cursor: pointer;
 }
+
+
+@media (max-width: 1280px){
+  body {
+    background-color: black;
+}  
+.formulario {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    height: 300px;
+}
+.compañia
+{
+    text-align: left;
+    width: 95%;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 15px;
+    font-weight: 600;
+    color: black;
+    
+}
+.titulo
+{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+    font-size: 35px;
+    font-family: Montserrat, sans-serif;
+}
+.imagen
+{
+    position: absolute;
+    margin-left: 25%;
+    bottom: 40%;
+}
+}
+@media (max-width: 1024px){
+    .imagen
+    {
+        position: absolute;
+        margin-left: 30%;
+        bottom: 25%;
+    }
+}
+
+@media (max-width: 900px) {
+.imagen {
+    position: absolute;
+       
+}
+
+}
+    
+
+/* 
+Tamaños de pantalla estandar:
+- 1660px escritorio gama media
+- 1280px escritorio gama baja
+- 1024px tablet en landscape
+- 768px tablet en portrait
+- 480px telefonos generico
+- 340px telefonos muy peques
+*/
