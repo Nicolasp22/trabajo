@@ -9,6 +9,7 @@ html
 {
     background-image: linear-gradient(rgba(255, 255, 255, 0.253), rgba(255, 255, 255, 0.404), rgba(231, 220, 220, 0.329)), url(/fotos/fondo.jpg);
     background-position:center;
+    background-color: rgb(111, 136, 128);
 }
 body
 {
@@ -306,7 +307,7 @@ body
         height: 300px;
     }
         .titulo{
-            font-size: 30px;
+            font-size: 20px;
         }
         .compañia{
             font-size: 20px;
