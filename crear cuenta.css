@@ -241,6 +241,38 @@ select
 }
 
 
+@media screen and (max-width: 1280px){
+    .imagen{
+        right: 40px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .imagen{
+        width: 90px;
+        height: 90px;
+        right: 40px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+.subtitulo{
+    margin-bottom: 55px;
+
+}
+.imagen
+{
+    width: 80px;
+    height: 80px;
+    right: 50px;
+}
+
+
+}
+    
+
 
 
 @media screen and (max-width: 460px){
@@ -365,3 +397,14 @@ select
         right: 5%;
 }
 }
+
+
+/*
+Tamaños de pantalla estandar:
+- 1660px escritorio gama media
+- 1280px escritorio gama baja
+- 1024px tablet en landscape
+- 768px tablet en portrait
+- 480px telefonos generico
+- 340px telefonos muy peques
+*/
