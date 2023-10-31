@@ -440,6 +440,81 @@ body
     }
 
 }
+@media screen and (max-width: 300px){
+
+    .imagen {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 80%;
+        top: 115%;
+    }
+    .formulario{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+   
+    }
+    .titulo{
+        font-size: 25px;
+        width: 100%;
+        height: fit-content;
+        
+
+    }
+    .compañia{
+        font-size: 20px;
+        
+    }
+    .mail{
+    
+    margin-top: 20px;
+    width: 250px;
+    height: 43px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    }
+   .psw{
+    
+    width: 250px;
+    height: 43px;
+    border-radius: 10px;
+    border-style: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
+     }
+    .recupero{
+    font-size: 20px;
+    list-style: none;
+    color: rgb(17, 17, 17);
+    text-decoration-line: none;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--verde_oscuro);
+    }
+    .leyenda {
+        font-size: 20px;
+        
+
+    }
+    .crear {
+        font-size: 20px;
+        
+
+    }
+    .boton{
+        width: 140px;
+        height: 40px;
+    }
+}
 
 /*
 @media screen and (max-width: 240px){
