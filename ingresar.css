@@ -310,8 +310,8 @@ body
 @media screen and (max-width: 768px){
     .imagen {
         position: absolute;
-        left: 50%;    
-        top: 75%;
+        left: 45%;    
+        top: 80%;
         width: 60px;
         height: 60px;
     }
@@ -351,6 +351,7 @@ body
         border-style: hidden;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 5px;
         
          }
         .recupero{
@@ -364,13 +365,13 @@ body
         color: var(--verde_oscuro);
         }
         .leyenda {
-            font-size: 20px;
+            font-size: 15px;
             
     
         }
         .crear {
-            font-size: 20px;
-            
+            font-size: 15px;
+           
     
         }
 }
@@ -380,8 +381,8 @@ body
         position: absolute;
         width: 50px;
         height: 50px;
-        left: 30%;
-        top: 70%;
+        left: 55%;
+        top: 88%;
     }
     .formulario{
     display: flex;
@@ -389,19 +390,24 @@ body
     margin-top: 5%;
     margin-left: auto;
     margin-right: auto;
-    width: 480px;
+    width: 450px;
     height: 300px;
     }
     .titulo{
-        font-size: 30px;
+        font-size: 25px;
+        width: 450px;
+        height: fit-content;
+        margin-bottom: 25px;
+        justify-content: center;
     }
+   
     .compañia{
         font-size: 20px;
     }
     .mail{
     
     margin-top: 20px;
-    width: 400px;
+    width: 350px;
     height: 43px;
     border-radius: 10px;
     border-style: hidden;
@@ -410,7 +416,7 @@ body
     }
    .psw{
     
-    width: 400px;
+    width: 350px;
     height: 43px;
     border-radius: 10px;
     border-style: hidden;
@@ -430,7 +436,7 @@ body
     }
     .leyenda {
         font-size: 20px;
-        
+        margin-left: 50px;
 
     }
     .crear {
@@ -446,8 +452,8 @@ body
         position: absolute;
         width: 50px;
         height: 50px;
-        left: 80%;
-        top: 115%;
+        left: 65%;
+        top: 85%;
     }
     .formulario{
     display: flex;
@@ -502,7 +508,7 @@ body
     }
     .leyenda {
         font-size: 20px;
-        
+        margin-left: 50px;
 
     }
     .crear {
