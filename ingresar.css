@@ -460,10 +460,10 @@ body
    
     }
     .titulo{
-        font-size: 25px;
-        width: 100%;
+        font-size: 22px;
+        width: 300px;
         height: fit-content;
-        
+        margin-bottom: 30px;
 
     }
     .compañia{
