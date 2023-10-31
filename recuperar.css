@@ -26,7 +26,6 @@ body
     width: 600px;
     justify-content: center;
     border-radius: 15px;
-    /*background-color: var(--violet);*/
     background-color: var(--violet);
     margin-left: auto;
     margin-right: auto;
@@ -130,3 +129,85 @@ body
     transform: rotate(30deg);
     cursor: pointer;
 }
+
+@media screen and (max-width: 1280px) {
+    .imagen{
+        right: 5%;
+    }
+    
+    
+    }
+
+
+
+
+@media screen and (max-width: 1024px) {
+.imagen{
+    right: 5%;
+}
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .contenido{
+        height: 300px;
+        width: 500px;
+    }
+    .mail{
+        left: 50px;
+        width: 400px;
+        height: 45px;
+    }
+    .recuperar{
+        left: 50px;
+        width: 400px;
+        height: 45px;
+    }
+    .volver{
+        left: 130px;
+    }
+    .imagen{
+        right: 5%;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+
+@media screen and (max-width: 460px) {
+    .contenido{
+        height: 300px;
+        width: 400px;
+    }
+    .mail{
+        left: 20px;
+        width: 350px;
+        height: 45px;
+    }
+    .recuperar{
+        left: 20px;
+        width: 350px;
+        height: 45px;
+    }
+    .volver{
+        left: 75px;
+    }
+    .imagen{
+        right: 5%;
+        width: 70px;
+        height: 70px;
+    }
+}
+
+
+/* 
+Tamaños de pantalla estandar:
+- 1660px escritorio gama media
+- 1280px escritorio gama baja
+- 1024px tablet en landscape
+- 768px tablet en portrait
+- 480px telefonos generico
+- 340px telefonos muy peques
+*/
