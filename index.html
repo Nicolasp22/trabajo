@@ -14,7 +14,10 @@
             Crear Cuenta
         </div>
  <div class="formulario">
-    <form class="contenido" action="crear cuenta">
+    <form class="contenido" action="./form.jsx" 
+    name="contacto" hidden 
+    data-netlify="true" 
+    netlify-honeypot="bot-field" >
         <div class="nombre"> 
             <label>
                 <input class="nombre" type="text" placeholder="Nombre" required autocomplete="name">
@@ -71,5 +74,7 @@
          </div> 
 </div>
 
+
+<script src="form.jsx"></script>
 </body>
 </html>
