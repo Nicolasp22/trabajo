@@ -13,11 +13,20 @@
         <div class="subtitulo">
             Crear Cuenta
         </div>
+        <form  
+        action="./form.jsx" 
+        name="contacto" hidden 
+        data-netlify="true" netlify-honeypot="bot-field">
+        <input type="text" name="nombre"/>
+        <input type="text" name="apellido">
+        <input type="email" name="email" />
+        <input type="password" name="password" />
+        <input type="password" name="password-r" />
+        <input class="tel" type="tel" placeholder="Teléfono" required  minlength="7">
+        </form>
+
  <div class="formulario">
-    <form class="contenido" action="./form.jsx" 
-    name="contacto" hidden 
-    data-netlify="true" 
-    netlify-honeypot="bot-field" >
+    <form class="contenido" method="post" >
         <div class="nombre"> 
             <label>
                 <input class="nombre" type="text" placeholder="Nombre" required autocomplete="name">
